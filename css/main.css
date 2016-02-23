@@ -1,0 +1,240 @@
+@charset "utf-8";
+body {
+	font-family: "楷体","Microsoft YaHei UI", "Microsoft YaHei UI Light", "黑体", "微软雅黑", "新宋体";
+	text-align:center;
+	background-image:url(../pic/bamboo.JPG);
+	background-position:right top;
+	background-repeat:no-repeat;
+	font-size:20px;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+	width: 960px;
+	height: 1000px;
+	margin: 0 auto;
+	border-left: 1px solid #e24722;
+	border-right: 1px solid #e24722;
+	}
+#nav{
+	margin: 10px 0 0 -15px;
+	background: #424242;
+	width:990px;
+	height:25px;
+	text-align:center;
+	border-top: 2px solid #e24722;
+	}
+#nav_list{
+	font-size:16px;
+	margin:0;
+	font-family:"Microsoft YaHei UI", "Microsoft YaHei UI Light", "黑体", "微软雅黑", "楷体", "新宋体";
+	}
+#nav_list li{
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	color:#FFF;
+	}
+#nav_list li a{
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	width:80px;
+	height:25px;
+	line-height:25px;
+	}
+#nav_list li a:hover {
+	background:#146C9C; 
+	color:#fff;
+	}
+#log{
+	width:150px;
+	height:25px;
+	float:right;
+	}
+#log ul{
+	margin:0;
+	font-family:"Microsoft YaHei UI", "Microsoft YaHei UI Light", "黑体", "微软雅黑", "楷体", "新宋体";
+	}
+#log ul li{
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	margin-left:10px;
+	}
+#log ul li a{
+	width:40px;
+	height:25px;
+	line-height:25px;
+	border-radius:3px;
+	color:#FFF;
+	text-decoration:none;
+	font-size:14px;
+	display:block;
+	background-color:#000000;
+	}
+#log ul li a:hover {
+	background:#c1b163;
+	font-weight:bolder;
+	color:#ffffff;
+	}
+#poem{
+	border:hidden;
+	float:right;
+	margin:150px 400px 0 0;
+	}
+#poem td{
+	width:40px;
+	height:200px;
+	font-size:28px;
+	font-family: "楷体", "宋体", "微软雅黑";
+	}
+#bar{
+	width:300px;
+	height:30px;
+	background-image:url(../pic/barbg.jpg);
+	position:relative;
+	top:50px;
+	}
+#bar1{
+	width:300px;
+	height:30px;
+	background-image:url(../pic/barbg.jpg);
+	position:relative;
+	top:70px;
+	}
+#tang{
+	width:500px;
+	position:relative;
+	top:70px;
+	left:20px;
+	text-align:left;
+	}
+#song{
+	width:500px;
+	position:relative;
+	top:90px;
+	left:20px;
+	text-align:left;
+	}
+<!----------------------------------------------------------------->	
+fieldset{
+	width:400px;
+	margin:100px 0 0 200px;
+	border: 1px solid #000;
+	}
+legend{
+	font-size:24px;
+	font-weight:bolder;}
+fieldset p{
+	width:250px;
+	text-align:left;
+	margin: 0 auto;
+	padding:20px 0 0 0;\
+	}
+fieldset p span{
+	margin:0 0 0 90px;}	
+.textbox{
+		font-family:"Times New Roman", Times, serif;
+		border: 1px solid #aaa;
+		padding: 3px;
+		box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+		font-size: 13px;
+		border-radius: 3px;
+		}
+.button{
+		font-family:"Microsoft YaHei UI", "Microsoft YaHei UI Light", "黑体", "微软雅黑", "楷体", "新宋体";
+		font-size: 13px;
+		vertical-align: top;
+		padding: 3px 8px 3px 8px;
+		border: 1px solid #a2a2a2;
+		color:#424242;
+		cursor: pointer;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		background: -webkit-linear-gradient(#fff, #e5e5e5);
+		background: -moz-linear-gradient(#fff, #e5e5e5);
+		background: -ms-linear-gradient(#fff, #e5e5e5);
+		background: -o-linear-gradient(#fff, #e5e5e5);
+		background: linear-gradient(#fff, #e5e5e5);
+		-pie-background: linear-gradient(#fff, #e5e5e5);
+	}
+<!----------------------------------------------------------------->
+#poem_dufu{
+	border:hidden;
+	float:right;
+	}
+#poem_dufu tr{
+	width:30px;
+	}
+#poem_dufu tr td{
+	height:350px;
+	width:30px;
+	font-family:"楷体", "宋体", "微软雅黑";
+	font-size:20px;
+	vertical-align:text-top;
+	}
+<!----------------------------------------------------------------->
+#poem_li{
+	border:hidden;
+	float:right;
+	}
+#poem_li tr{
+	width:30px;
+	}
+#poem_li tr td{
+	height:200px;
+	width:30px;
+	font-family:"楷体", "宋体", "微软雅黑";
+	font-size:20px;
+	vertical-align:text-top;
+	}
+<!----------------------------------------------------------------->
+#shi_link ul{
+	width:100px;
+	height:200px;
+	}
+#link1{
+	float:left;
+	text-align:left;
+	}
+#link1 a{
+	color:#424242;
+	text-decoration:none;
+	}
+#link1 a:hover{
+	color:#e24722;
+	text-decoration:none;
+	}
+#link2{
+	float:right;
+	text-align:left;
+	}
+#link2 a{
+	text-decoration:none;
+	color:#424242;
+	}
+#link2 a:hover{
+	color:#e24722;
+	text-decoration:none;
+	}
+<!----------------------------------------------------------------->
+#map{
+	width:800px;
+	}
+#map tr th,td{
+	width:25px;
+	font-family: "微软雅黑", "黑体", "楷体", "宋体";}
+#map td{
+	font-size:16px;}
